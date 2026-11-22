@@ -1,0 +1,52 @@
+{
+  "synthetic": false,
+  "data_source": "cache",
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "EFA",
+    "EEM",
+    "TLT",
+    "GLD",
+    "USO",
+    "AAPL",
+    "MSFT",
+    "JPM"
+  ],
+  "price_start": "2018-01-02",
+  "price_end": "2026-11-20",
+  "n_return_obs": 2234,
+  "alpha": 0.99,
+  "window": 500,
+  "n_sims": 10000,
+  "refit_every": 20,
+  "seed": 42,
+  "backtest_start": "2020-04-03",
+  "backtest_end": "2026-11-20",
+  "backtest_n_obs": 1668,
+  "ml_backend": "lightgbm",
+  "ml_floor_hits": 0,
+  "har_floor_hits": 0,
+  "garch_fits": 84,
+  "garch_not_converged": 0,
+  "timings_s": {
+    "data": 0.01,
+    "full_sample": 0.01,
+    "rolling_var": 4.66,
+    "garch": 3.03,
+    "ml": 2.94,
+    "charts": 1.29,
+    "total": 12.03
+  },
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "arch": "9.0.0",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.1",
+    "yfinance": "1.8.0",
+    "matplotlib": "3.11.2"
+  }
+}
